@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.bg-theme-cart {
+    @apply bg-gradient-to-b from-slate-900 to-gray-900 shadow-sm shadow-gray-900;
+}
+.box-shadow{
+  box-shadow:5px 5px 10px rgb(255, 255, 255);     
+}
+.gradient:hover {
+    background-image: linear-gradient(to right, #e908fe, purple,blue);
+}
+.blur-effect-theme {
+  @apply bg-white/50 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-50 opacity-100 z-[100] shadow-sm shadow-slate-100 transition-all duration-300;
+}   
+:root {
+    scroll-behavior: smooth;
+  } 
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399  51%, #ff00cc  100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+         
+  .gradient1 {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+  }
+
+  .gradient1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ .round1{
+  background-image: linear-gradient(to right,rgba(34, 33, 33, 0.551) 0%,white 100%);
+ }
+         
+ .gradient2 {
+  background-image: linear-gradient(to right, #DE6262 0%, #FFB88C  51%, #DE6262  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.gradient2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+   
+.gradient3 {
+  background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.gradient3:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
